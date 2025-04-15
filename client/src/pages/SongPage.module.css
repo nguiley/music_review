@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 300px;
+    position: sticky;
+    top: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .info-container {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
